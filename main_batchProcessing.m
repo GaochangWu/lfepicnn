@@ -6,6 +6,7 @@ LFDimOut = 7;
 toneCoef = 2.25;
 
 addpath('./utils');
+addpath(genpath('./non-blind deconvolution'));
 sceneFile='.\Data';
 im_list = dir(strcat(sceneFile,'/*.png'));
 for n = 1:length(im_list)

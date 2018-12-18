@@ -7,6 +7,7 @@ LFDimOut = 7; % Output resolution in angular dimension
 LFDimIn = 3; % Input resolution in angular dimension
 
 addpath('./utils');
+addpath(genpath('./non-blind deconvolution'));
 fileName=['.\Data\',sceneName];
 sRes = 14;
 tRes = 14;

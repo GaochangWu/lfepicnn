@@ -31,7 +31,8 @@ Please cite our paper if you use this code, thank you!
 Usage:
 1. Please download Lytro data at "http://lightfields.stanford.edu/", and save the data under the file named "Data".
 2. Before testing the code, please install "matconvnet" by running "install.m".
-3. Demo code is "main.m".
-4. Batch processing code is "main_batchProcessing.m".
+3. Make sure the 'utils', 'non-blind deconvolution', './matconvnet' are in your path.
+4. Demo code is "main.m".
+5. Batch processing code is "main_batchProcessing.m".
 
 ***********************************************************************************************************

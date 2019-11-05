@@ -1,5 +1,5 @@
 ***********************************************************************************************************
-Matlab demo code for "Light Field Reconstruction Using Deep Convolutional Network on EPI" (CVPR 2017)
+Matlab demo code for "Light Field Reconstruction Using Convolutional Network on EPI and Extended Applications" (TPAMI 2019)
 ***********************************************************************************************************
 
 Note:
@@ -7,11 +7,15 @@ The restoration kernels include SCN [1], SRSC [2], SRCNN [3], VDSR [4] and FSRCN
 
 Please cite our paper if you use this code, thank you! 
 
-@inproceedings{EPICNN17,
-	author = {Gaochang Wu and Mandan Zhao and Liangyong Wang and Qionghai Dai and Tianyou Chai and Yebin Liu},
-	title = {Light Field Reconstruction Using Deep Convolutional Network on EPI},
-	booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017},
-	year = {2017},
+@article{WuEPICNN2019,
+  title={Light Field Reconstruction Using Convolutional Network on EPI and Extended Applications},
+  author={Wu, Gaochang and Liu, Yebin and Fang, Lu and Dai, Qionghai and Chai, Tianyou},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={41},
+  number={7},
+  pages={1681--1694},
+  year={2019},
+  publisher={IEEE}
 }
 
 [1] Zhaowen Wang, Ding Liu, Wei Han, Jianchao Yang and Thomas S. Huang, Deep Networks for Image Super-Resolution with Sparse Prior. International Conference on Computer Vision (ICCV), 2015
